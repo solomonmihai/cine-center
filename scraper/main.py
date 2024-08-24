@@ -4,8 +4,8 @@ import re
 import json
 
 EVENTBOOK_URL = "https://eventbook.ro"
-
-cinemas = [
+# TODO: maybe the cinema name could also be retrieved from the page
+CINEMAS = [
   {
     "name": "Cinema Elvire Popesco",
     "url": "https://eventbook.ro/hall/cinema-elvire-popesco",
@@ -26,14 +26,16 @@ cinemas = [
 
 def get_page_selector(url: str):
   res = requests.get(url)
-  html = res.content
-  text = html.decode()
-  return Selector(text)
+  return Selector(res.text)
 
+# TODO: get the number from the last element because
+# ... in the middle when many pages
 def get_page_count(selector: Selector):
   pages_el = selector.css(".page-item").extract()
   count = len(pages_el[1:-1])
-  return count
+
+  # at least 1 page
+  return max(count, 1)
 
 def get_text_from_el(text: str):
   return " ".join([t.strip() for t in re.findall(r"<[^>]+>|[^<]+", text) if not "<" in t])
@@ -67,27 +69,32 @@ def get_films_from_page(url: str):
 
   return [get_film_details(perf) for perf in performances]
 
-def scrape(url: str):
+def scrape_cinema(url: str):
   selector = get_page_selector(url)
   page_count = get_page_count(selector)
 
   films = []
 
-  if page_count == 0:
-    page_count = 1
-
+  # TODO: films from the first page can be retrieved from the selector
+  # used to get the page count
+  # no need for another request
   for page_no in range(1, page_count + 1):
-    page_url = url + "?page=" + str(page_no)
+    page_url = f"{url}?page={page_no}"
     films.append(get_films_from_page(page_url))
 
   return films
 
 if __name__ == "__main__":
-  for cinema in cinemas:
-    film_data = scrape(cinema["url"])
-    cinema["films"] = film_data
+  data = []
+
+  for cinema in CINEMAS:
+    films_data = scrape_cinema(cinema["url"])
+    data.append({
+      **cinema,
+      "films": films_data
+    })
 
   with open("data.json", "w") as f:
-    json.dump(cinemas, f, indent=2)
+    json.dump(data, f, indent=2)
 
 
