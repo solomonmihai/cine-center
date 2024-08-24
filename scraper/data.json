@@ -1,0 +1,541 @@
+[
+  {
+    "name": "Cinema Elvire Popesco",
+    "url": "https://eventbook.ro/hall/cinema-elvire-popesco",
+    "films": [
+      [
+        {
+          "title": "Carnet de 5 Billets",
+          "date": " Valabil 3 luni ",
+          "price": "80 lei",
+          "link": "https://eventbook.ro/other/carnet-5-bilete?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2023/10/carnet-5-bilete-NY8.webp"
+        },
+        {
+          "title": "MAX ET LES FERRAILLEURS / MAX \u0218I INFRACTORII",
+          "date": " 24 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-claude-sautet-max-et-les-ferrailleurs?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-retrospectiva-claude-sautet-max-et-les-ferrailleurs-HSw.webp"
+        },
+        {
+          "title": "Interzis c\u00e2inilor \u0219i italienilor / Interdit aux chiens et aux italiens",
+          "date": " 25 Aug 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-interzis-cainilor-si-italienilor?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2023/11/bilete-interzis-cainilor-si-italienilor.webp"
+        },
+        {
+          "title": "ZAZIE DANS LE M\u00c9TRO / ZAZIE \u00ceN METROU",
+          "date": " 25 Aug 2024   13:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-elvire-retro-zazie-dans-le-metro?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-elvire-retro-zazie-dans-le-metro-J8E.webp"
+        },
+        {
+          "title": "AU REVOIR LES ENFANTS",
+          "date": " 25 Aug 2024   15:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-elvire-retro-au-revoir-les-enfants?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-elvire-retro-au-revoir-les-enfants-kGe.webp"
+        },
+        {
+          "title": "C\u00c9SAR ET ROSALIE / C\u00c9SAR \u0218I ROSALIE",
+          "date": " 25 Aug 2024   18:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-claude-sautet-cesar-et-rosalie?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-retrospectiva-claude-sautet-cesar-et-rosalie-zKw.webp"
+        },
+        {
+          "title": "VINCENT, FRAN\u00c7OIS, PAUL ET LES AUTRES / VINCENT, FRAN\u00c7OIS, PAUL \u0218I CEILAL\u021aI",
+          "date": " 25 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-claude-sautet-vincent-francois-paul-et-les-autres?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-retrospectiva-claude-sautet-vincent-francois-paul-et-les-autres-Gm9.webp"
+        },
+        {
+          "title": "\u00ceNTORS PE DOS 2 / INSIDE OUT 2",
+          "date": " 26 Aug 2024   18:30 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-inside-out-2?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/05/bilete-inside-out-2.webp"
+        },
+        {
+          "title": "LES SORCI\u00c8RES DE L\u2019ORIENT / VR\u0102JITOARELE DIN ORIENT",
+          "date": " 26 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-les-sorcieres-de-l-orient?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-les-sorcieres-de-l-orient-V3b.webp"
+        },
+        {
+          "title": "PACIFICTION",
+          "date": " 27 Aug 2024   19:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-ffe-pacifiction?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/04/bilete-ffe-pacifiction-AI3.webp"
+        }
+      ],
+      [
+        {
+          "title": "\u00c0MA GLORIA",
+          "date": " 28 Aug 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-elvire-popesco-ama-gloria?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/03/bilete-fff-ama-gloria.webp"
+        },
+        {
+          "title": "P\u0103m\u00e2ntul de care apar\u021binem",
+          "date": " 28 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-pamantul-de-care-apartinem?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-pamantul-de-care-apartinem.webp"
+        },
+        {
+          "title": "COMPETI\u021aIE SCURTMETRAJ INTERNA\u021aIONAL 1",
+          "date": " 29 Aug 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-international-1?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-international-1-fxO.webp"
+        },
+        {
+          "title": "CITY OF WIND - Competi\u021bie lungmetraj",
+          "date": " 29 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-city-of-wind?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-anonimul-2024-city-of-wind-lfY.webp"
+        },
+        {
+          "title": "COMPETI\u021aIE SCURTMETRAJ INTERNA\u021aIONAL 2",
+          "date": " 30 Aug 2024   18:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-international-2?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-international-2-B5B.webp"
+        },
+        {
+          "title": "SWEET DREAMS - Competi\u021bie lungmetraj",
+          "date": " 30 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-sweet-dreams?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-anonimul-2024-sweet-dreams-OEZ.webp"
+        },
+        {
+          "title": "Arca lui Noe: Aventuri \u0219orice\u0219ti / Noah's Ark",
+          "date": " 31 Aug 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-arca-lui-noe?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-arca-lui-noe-jUV.webp"
+        },
+        {
+          "title": "\u00ceNTORS PE DOS 2 / INSIDE OUT 2",
+          "date": " 31 Aug 2024   13:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-inside-out-2?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/05/bilete-inside-out-2.webp"
+        },
+        {
+          "title": "BANEL & ADAMA - Competi\u021bie lungmetraj",
+          "date": " 31 Aug 2024   15:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-banel-adama?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-anonimul-2024-banel-adama-dFt.webp"
+        },
+        {
+          "title": "COMPETI\u021aIE SCURTMETRAJ ROM\u00c2NESC 1",
+          "date": " 31 Aug 2024   18:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-romanesc-1?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-romanesc-1-IPn.webp"
+        }
+      ],
+      [
+        {
+          "title": "THE GIRL WITH THE NEEDLE",
+          "date": " 31 Aug 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-the-girl-with-the-needle?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-anonimul-2024-the-girl-with-the-needle-CUY.webp"
+        },
+        {
+          "title": "Sirocco \u0219i Regatul v\u00e2nturilor / Sirocco et le royaume des courants d'air",
+          "date": " 1 Sep 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-sirocco-si-regatul-vanturilor-sub-ro?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-sirocco-si-regatul-vanturilor.webp"
+        },
+        {
+          "title": "EXCURSION - Competi\u021bie lungmetraj",
+          "date": " 1 Sep 2024   13:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-excursie?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-anonimul-2024-excursie-QPv.webp"
+        },
+        {
+          "title": "COMPETI\u021aIE SCURTMETRAJ ROM\u00c2NESC 2",
+          "date": " 1 Sep 2024   15:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-romanesc-2?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-retrospectiva-anonimul-2024-competitie-scurtmetraj-romanesc-2-wvu.webp"
+        },
+        {
+          "title": "PHOTOPHOBIA - C\u00e2\u0219tig\u0103torul Trofeului Anonimul 21",
+          "date": " 1 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-photophobia?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-anonimul-2024-photofobia-Qv3.webp"
+        },
+        {
+          "title": "MEMORY",
+          "date": " 1 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-retrospectiva-anonimul-2024-memory?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-retrospectiva-anonimul-2024-memory-BQk.webp"
+        },
+        {
+          "title": "Noaptea masacrului / Night of the Hunted",
+          "date": " 2 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-noaptea-masacrului?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-noaptea-masacrului.webp"
+        },
+        {
+          "title": "LE PROC\u00c8S GOLDMAN / PROCESUL GOLDMAN",
+          "date": " 2 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-elvire-popesco-le-proces-goldman?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/03/bilete-fff-le-proces-goldman.webp"
+        },
+        {
+          "title": "LONGLEGS",
+          "date": " 3 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-longlegs?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-longlegs-AQC.webp"
+        },
+        {
+          "title": "PLEIN SOLEIL",
+          "date": " 3 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-plein-soleil?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-plein-soleil-JIi.webp"
+        }
+      ],
+      [
+        {
+          "title": "Noaptea masacrului / Night of the Hunted",
+          "date": " 4 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-noaptea-masacrului?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-noaptea-masacrului.webp"
+        },
+        {
+          "title": "BEETLEJUICE BEETLEJUICE",
+          "date": " 4 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-beetlejuice-beetlejuice?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-beetlejuice-beetlejuice-RsV.webp"
+        },
+        {
+          "title": "WHAT THE HELL HAPPENED TO BLOOD, SWEAT & TEARS?",
+          "date": " 5 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-what-the-hell-happened-to-blood-sweat-tears?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-what-the-hell-happened-to-blood-sweat-tears-yBZ.webp"
+        },
+        {
+          "title": "Land of the Unmarked - Competi\u021bia Interna\u021bional\u0103 de Scurtmetraje 1",
+          "date": " 5 Sep 2024   21:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-land-of-the-unmarked-competitia-internationala-de-scurtmetraje-1?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-land-of-the-unmarked-competitia-internationala-de-scurtmetraje-1-DAf.webp"
+        },
+        {
+          "title": "Land of Fluid Outlines - Competi\u021bia Interna\u021bional\u0103 de Scurtmetraje 2",
+          "date": " 6 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-land-of-fluid-outlines-competitia-internationala-de-scurtmetraje-2?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-land-of-fluid-outlines-competitia-internationala-de-scurtmetraje-2-2NR.webp"
+        },
+        {
+          "title": "BODY ODYSSEY",
+          "date": " 6 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-body-odyssey?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-body-odyssey-Tov.webp"
+        },
+        {
+          "title": "Sirocco \u0219i Regatul v\u00e2nturilor / Sirocco et le royaume des courants d'air",
+          "date": " 7 Sep 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-sirocco-si-regatul-vanturilor-sub-ro?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-sirocco-si-regatul-vanturilor.webp"
+        },
+        {
+          "title": "LONGLEGS",
+          "date": " 7 Sep 2024   13:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-longlegs?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-longlegs-AQC.webp"
+        },
+        {
+          "title": "BEETLEJUICE BEETLEJUICE",
+          "date": " 7 Sep 2024   16:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-beetlejuice-beetlejuice?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-beetlejuice-beetlejuice-RsV.webp"
+        },
+        {
+          "title": "Land of Living Frames - Competi\u021bia Interna\u021bional\u0103 de Scurtmetraje 3",
+          "date": " 7 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-land-of-living-frames-competitia-internationala-de-scurtmetraje-3?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-land-of-living-frames-competitia-internationala-de-scurtmetraje-3-dCi.webp"
+        }
+      ],
+      [
+        {
+          "title": "MEMORIES OF A BURNING BODY",
+          "date": " 7 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-memories-of-a-burning-boy?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-memories-of-a-burning-boy-AjZ.webp"
+        },
+        {
+          "title": "Arca lui Noe: Aventuri \u0219orice\u0219ti / Noah's Ark",
+          "date": " 8 Sep 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-arca-lui-noe?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-arca-lui-noe-jUV.webp"
+        },
+        {
+          "title": "BEETLEJUICE BEETLEJUICE",
+          "date": " 8 Sep 2024   13:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-beetlejuice-beetlejuice?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-beetlejuice-beetlejuice-RsV.webp"
+        },
+        {
+          "title": "LONGLEGS",
+          "date": " 8 Sep 2024   16:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-longlegs?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-longlegs-AQC.webp"
+        },
+        {
+          "title": "BEST OF BIDFF",
+          "date": " 8 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-best-of-bidff?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-best-of-bidff-7P8.webp"
+        },
+        {
+          "title": "THIS IS BALLROOM",
+          "date": " 8 Sep 2024   21:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-bidff-this-is-ballroom?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-bidff-this-is-ballroom-DYY.webp"
+        },
+        {
+          "title": "EXT. MA\u0218IN\u0102. NOAPTE",
+          "date": " 9 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-ext-masina-noapte?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-ext-masina-noapte-XsF.webp"
+        },
+        {
+          "title": "Noaptea masacrului / Night of the Hunted",
+          "date": " 10 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-noaptea-masacrului?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-noaptea-masacrului.webp"
+        },
+        {
+          "title": "LONGLEGS",
+          "date": " 11 Sep 2024   18:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-longlegs?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-longlegs-AQC.webp"
+        },
+        {
+          "title": "BEETLEJUICE BEETLEJUICE",
+          "date": " 11 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-beetlejuice-beetlejuice?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-beetlejuice-beetlejuice-RsV.webp"
+        }
+      ],
+      [
+        {
+          "title": "METRONOM",
+          "date": " 12 Sep 2024   18:00 ",
+          "price": "0 lei (Acces pe baz\u0103 de bilet cu valoare 0)",
+          "link": "https://eventbook.ro/film/bilete-cinema-fara-bariere-metronom?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-cinema-fara-bariere-metronom-XMj.webp"
+        },
+        {
+          "title": "KINDS OF KINDNESS / FORME DE BUN\u0102TATE",
+          "date": " 12 Sep 2024   21:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-kinds-of-kindness?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-kinds-of-kindness-uT0.webp"
+        },
+        {
+          "title": "LEO, MARELE INVENTATOR",
+          "date": " 14 Sep 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-leo-marele-inventator?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-leo-marele-inventator-euN.webp"
+        },
+        {
+          "title": "EXT. MA\u0218IN\u0102. NOAPTE",
+          "date": " 14 Sep 2024   13:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-ext-masina-noapte?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-ext-masina-noapte-XsF.webp"
+        },
+        {
+          "title": "BEETLEJUICE BEETLEJUICE",
+          "date": " 14 Sep 2024   15:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-beetlejuice-beetlejuice?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-beetlejuice-beetlejuice-RsV.webp"
+        },
+        {
+          "title": "CROSSING / DINCOLO DE GRANI\u021aE",
+          "date": " 14 Sep 2024   18:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-dincolo-de-granite?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-dincolo-de-granite-iuq.webp"
+        },
+        {
+          "title": "KINDS OF KINDNESS / FORME DE BUN\u0102TATE",
+          "date": " 14 Sep 2024   20:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-kinds-of-kindness?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-kinds-of-kindness-uT0.webp"
+        },
+        {
+          "title": "Sirocco \u0219i Regatul v\u00e2nturilor / Sirocco et le royaume des courants d'air",
+          "date": " 15 Sep 2024   11:00 ",
+          "price": "30 lei (adult+copil)",
+          "link": "https://eventbook.ro/film/bilete-sirocco-si-regatul-vanturilor-sub-ro?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-sirocco-si-regatul-vanturilor.webp"
+        },
+        {
+          "title": "LONGLEGS",
+          "date": " 15 Sep 2024   13:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-longlegs?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-longlegs-AQC.webp"
+        },
+        {
+          "title": "EXT. MA\u0218IN\u0102. NOAPTE",
+          "date": " 15 Sep 2024   15:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-ext-masina-noapte?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-ext-masina-noapte-XsF.webp"
+        }
+      ],
+      [
+        {
+          "title": "BEETLEJUICE BEETLEJUICE",
+          "date": " 15 Sep 2024   17:30 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-beetlejuice-beetlejuice?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-beetlejuice-beetlejuice-RsV.webp"
+        },
+        {
+          "title": "KINDS OF KINDNESS / FORME DE BUN\u0102TATE",
+          "date": " 15 Sep 2024   20:00 ",
+          "price": "25 lei",
+          "link": "https://eventbook.ro/film/bilete-kinds-of-kindness?hall=cinema-elvire-popesco",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-kinds-of-kindness-uT0.webp"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Cinema Europa",
+    "url": "https://eventbook.ro/hall/cinema-europa-bucuresti",
+    "films": [
+      [
+        {
+          "title": "Sirocco \u0219i Regatul v\u00e2nturilor / Sirocco et le royaume des courants d'air",
+          "date": " 25 Aug 2024   15:15 ",
+          "price": "15 lei (2D DUBLAT)",
+          "link": "https://eventbook.ro/film/bilete-sirocco-si-regatul-vanturilor?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-sirocco-si-regatul-vanturilor.webp"
+        },
+        {
+          "title": "Alien: Romulus",
+          "date": " 25 Aug 2024   17:00 ",
+          "price": "15 lei",
+          "link": "https://eventbook.ro/film/bilete-alienromulus?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-alienromulus.webp"
+        },
+        {
+          "title": "Clipe\u0219te de dou\u0103 ori / Blink Twice",
+          "date": " 25 Aug 2024   19:30 ",
+          "price": "15 lei",
+          "link": "https://eventbook.ro/film/bilete-blink-twice?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-blink-twice.webp"
+        },
+        {
+          "title": "P\u0103m\u00e2ntul de care apar\u021binem",
+          "date": " 27 Aug 2024   17:30 ",
+          "price": "15 lei",
+          "link": "https://eventbook.ro/film/bilete-pamantul-de-care-apartinem?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-pamantul-de-care-apartinem.webp"
+        },
+        {
+          "title": "Clipe\u0219te de dou\u0103 ori / Blink Twice",
+          "date": " 27 Aug 2024   19:30 ",
+          "price": "15 lei",
+          "link": "https://eventbook.ro/film/bilete-blink-twice?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-blink-twice.webp"
+        },
+        {
+          "title": "Clipe\u0219te de dou\u0103 ori / Blink Twice",
+          "date": " 28 Aug 2024   17:15 ",
+          "price": "15 lei",
+          "link": "https://eventbook.ro/film/bilete-blink-twice?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-blink-twice.webp"
+        },
+        {
+          "title": "Noaptea masacrului / Night of the Hunted",
+          "date": " 28 Aug 2024   19:30 ",
+          "price": "15 lei (2D)",
+          "link": "https://eventbook.ro/film/bilete-noaptea-masacrului?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-noaptea-masacrului.webp"
+        },
+        {
+          "title": "Noaptea masacrului / Night of the Hunted",
+          "date": " 29 Aug 2024   17:30 ",
+          "price": "15 lei (2D)",
+          "link": "https://eventbook.ro/film/bilete-noaptea-masacrului?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/07/bilete-noaptea-masacrului.webp"
+        },
+        {
+          "title": "The Crow / The Crow: Iubire \u0219i r\u0103zbunare",
+          "date": " 29 Aug 2024   19:30 ",
+          "price": "15 lei (2D)",
+          "link": "https://eventbook.ro/film/bilete-the-crow?hall=cinema-europa-bucuresti",
+          "img_url": "https://storage.googleapis.com/eventbook-files/images/event/2024/08/bilete-the-crow.webp"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Cinema Eforie",
+    "url": "https://eventbook.ro/hall/cinema-eforie",
+    "films": [
+      []
+    ]
+  },
+  {
+    "name": "Cinema Union",
+    "url": "https://eventbook.ro/hall/cinema-union",
+    "films": [
+      []
+    ]
+  }
+]
