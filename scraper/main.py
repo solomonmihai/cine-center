@@ -1,4 +1,5 @@
 from parsel import Selector
+from datetime import datetime
 import requests
 import re
 import json
@@ -47,7 +48,13 @@ def get_film_details(perf: Selector):
   title = right_col.css("h5::text").get().strip()
 
   date_el_text = left_col.css("div>h4").get().strip()
-  date = get_text_from_el(date_el_text)
+  date_text = " ".join(get_text_from_el(date_el_text).split())
+
+  date = ""
+  try:
+    date = int(datetime.strptime(date_text, "%d %b %Y %H:%M").timestamp())
+  except:
+    return None
 
   link = EVENTBOOK_URL + left_col.css("a").attrib["href"]
   img_url = left_col.css("a>div>img").attrib["src"]
@@ -55,19 +62,25 @@ def get_film_details(perf: Selector):
   price_el_text = right_col.css(".col-12.text-dark.text-center>.text-uppercase").get().strip()
   price = get_text_from_el(price_el_text).split(": ")[1]
 
+  location = get_text_from_el(right_col.css("h6").get()).strip()
+
   return {
     "title": title,
     "date": date,
     "price": price,
     "link": link,
     "img_url": img_url,
+    "location": location,
   }
 
 def get_films_from_page(url: str):
   selector = get_page_selector(url)
   performances = selector.css("#performance")
 
-  return [get_film_details(perf) for perf in performances]
+  return [
+    film for perf in performances
+    if (film := get_film_details(perf)) is not None
+  ]
 
 def scrape_cinema(url: str):
   selector = get_page_selector(url)
@@ -80,21 +93,20 @@ def scrape_cinema(url: str):
   # no need for another request
   for page_no in range(1, page_count + 1):
     page_url = f"{url}?page={page_no}"
-    films.append(get_films_from_page(page_url))
+    films.extend(get_films_from_page(page_url))
 
   return films
 
 if __name__ == "__main__":
-  data = []
+  data = {}
 
   for cinema in CINEMAS:
     films_data = scrape_cinema(cinema["url"])
-    data.append({
+    data[cinema["name"]] = {
       **cinema,
       "films": films_data
-    })
+    }
 
   with open("data.json", "w") as f:
     json.dump(data, f, indent=2)
-
 
