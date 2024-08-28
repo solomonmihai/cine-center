@@ -2,7 +2,6 @@ package data
 
 import (
 	"errors"
-	"fmt"
 	"main/utils"
 	"sort"
 )
@@ -35,7 +34,6 @@ var AllFilmsByDate []Film
 func LoadData() error {
 	data, err := utils.LoadJSON[Cinemas](DATA_PATH)
 	if err != nil {
-		fmt.Printf("error reading from json file: %s\n", err)
 		return err
 	}
 

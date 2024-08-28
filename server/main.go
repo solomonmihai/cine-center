@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"main/data"
 	"net/http"
 
@@ -15,6 +16,7 @@ func main() {
 	e.Use(middleware.CORS())
 
 	if err := data.LoadData(); err != nil {
+		fmt.Printf("failed to load data %s", err)
 		return
 	}
 
@@ -40,5 +42,7 @@ func main() {
 		return c.JSON(http.StatusOK, cinema)
 	})
 
-	e.Start(":5555")
+	if err := e.Start(":5555"); err != nil {
+		fmt.Printf("failed to start server %s", err)
+	}
 }

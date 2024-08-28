@@ -2,3 +2,5 @@
 */node_modules/
 */tmp/
 scrapper/data.json/
+
+scraper/data.json
