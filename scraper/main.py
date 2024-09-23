@@ -1,3 +1,5 @@
+#!/usr/local/bin/python3
+
 from parsel import Selector
 from datetime import datetime
 import requests
@@ -22,6 +24,10 @@ CINEMAS = [
   {
     "name": "Cinema Union",
     "url": "https://eventbook.ro/hall/cinema-union",
+  },
+  {
+    "name": "Cinema Muzeul Taranului Roman",
+    "url": "https://eventbook.ro/hall/cinema-muzeul-taranului-studio-horia-bernea"
   }
 ]
 
@@ -59,8 +65,12 @@ def get_film_details(perf: Selector):
   link = EVENTBOOK_URL + left_col.css("a").attrib["href"]
   img_url = left_col.css("a>div>img").attrib["src"]
 
-  price_el_text = right_col.css(".col-12.text-dark.text-center>.text-uppercase").get().strip()
-  price = get_text_from_el(price_el_text).split(": ")[1]
+  price = "???"
+  try:
+    price_el_text = right_col.css(".col-12.text-dark.text-center>.text-uppercase").get().strip()
+    price = get_text_from_el(price_el_text).split(": ")[1]
+  except:
+    pass
 
   location = get_text_from_el(right_col.css("h6").get()).strip()
 
@@ -101,12 +111,13 @@ if __name__ == "__main__":
   data = {}
 
   for cinema in CINEMAS:
+    print(' - ' + cinema["name"])
     films_data = scrape_cinema(cinema["url"])
     data[cinema["name"]] = {
       **cinema,
       "films": films_data
     }
 
-  with open("data.json", "w") as f:
+  with open("../data.json", "w") as f:
     json.dump(data, f, indent=2)
 

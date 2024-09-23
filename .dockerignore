@@ -1,0 +1,36 @@
+node_modules
+
+# flyctl launch added from .gitignore
+**/*/venv
+**/*/node_modules
+**/*/tmp
+**/scrapper/data.json
+
+**/scraper/data.json
+
+# flyctl launch added from client/.gitignore
+client/**/node_modules
+
+# Output
+client/**/.output
+client/**/.vercel
+client/.svelte-kit
+client/build
+
+# OS
+client/**/.DS_Store
+client/**/Thumbs.db
+
+# Env
+client/**/.env
+client/**/.env.*
+!client/**/.env.example
+!client/**/.env.test
+
+# Vite
+client/**/vite.config.js.timestamp-*
+client/**/vite.config.ts.timestamp-*
+
+# flyctl launch added from client/node_modules/.pnpm/tailwindcss@3.4.10/node_modules/tailwindcss/stubs/.gitignore
+!client/node_modules/.pnpm/tailwindcss@3.4.10/node_modules/tailwindcss/stubs/**/*
+fly.toml

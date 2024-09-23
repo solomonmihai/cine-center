@@ -4,6 +4,7 @@ import (
 	"errors"
 	"main/utils"
 	"sort"
+	"time"
 )
 
 type Film struct {
@@ -25,13 +26,13 @@ type Cinema struct {
 // Cinemas represents a map of cinema names to Cinema structs.
 type Cinemas map[string]Cinema
 
-const DATA_PATH = "../scraper/data.json"
+const DATA_PATH = "../data.json"
 
 var CinemaData Cinemas
 var CinemaNames []string
 var AllFilmsByDate []Film
 
-func LoadData() error {
+func loadData() error {
 	data, err := utils.LoadJSON[Cinemas](DATA_PATH)
 	if err != nil {
 		return err
@@ -55,8 +56,14 @@ func getCinemaNames() []string {
 func getAllFilmsByDate() []Film {
 	films := []Film{}
 
+	now := time.Now().Unix()
+
 	for _, cinema := range CinemaData {
-		films = append(films, cinema.Films...)
+		for _, film := range cinema.Films {
+			if int64(film.Date) > now {
+				films = append(films, film)
+			}
+		}
 	}
 
 	sort.Slice(films, func(i, j int) bool {

@@ -8,10 +8,14 @@
   const time = ts.format("HH:mm");
 </script>
 
-<a class="flex flex-row max-w-lg py-2 gap-4" href={film.link} target="_blank">
+<a
+  class="group flex flex-row max-w-lg p-2 gap-4 hover:border-black border-white border-[1px]"
+  href={film.link}
+  target="_blank"
+>
   <img class="max-w-32 rounded-md" alt="poster" src={film.img_url} />
   <div class="flex flex-col gap-1">
-    <div class="font-bold">{film.title}</div>
+    <div class="font-bold group-hover:underline">{film.title}</div>
     <div>🕰️ {time} // {date}</div>
     <div>📍 {film.location}</div>
     <div>💵 {film.price}</div>

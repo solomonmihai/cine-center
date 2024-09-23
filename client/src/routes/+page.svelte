@@ -3,13 +3,12 @@
   import FilmList from "$lib/components/FilmList.svelte";
 
   export let data;
-  console.log(data);
 </script>
 
 <Container>
-  <h1 class="block text-2xl italic font-bold">Cine Center</h1>
+  <h1 class="block text-2xl italic font-bold">Cine Centru</h1>
+  <div class="font-bold">cinemauri</div>
   <div class="w-full">
-    <div class="font-bold">vezi per cinema</div>
     <div class="flex flex-col items-start w-full">
       {#each data.cinemas as cinema}
         <a class="block italic hover:underline" href={`/cinema/${encodeURIComponent(cinema)}`}
@@ -19,5 +18,6 @@
     </div>
   </div>
 
+  <div class="font-bold">toate</div>
   <FilmList films={data.films} />
 </Container>

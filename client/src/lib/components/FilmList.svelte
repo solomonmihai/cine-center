@@ -3,7 +3,7 @@
   export let films;
 </script>
 
-<div>
+<div class="-ml-2">
   {#if films.length > 0}
     {#each films as film}
       <FilmBox {film} />

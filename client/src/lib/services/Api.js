@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5555";
+const BASE_URL = "";
 const HEADERS = {
   "Content-Type": "application/json",
 };

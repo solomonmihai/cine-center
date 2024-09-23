@@ -4,3 +4,6 @@
 scrapper/data.json/
 
 scraper/data.json
+.github/workflows/fly-deploy.yml
+fly.toml
+data.json
