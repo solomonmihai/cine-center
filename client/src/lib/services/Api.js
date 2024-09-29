@@ -1,4 +1,4 @@
-const BASE_URL = "";
+const BASE_URL = "/api";
 const HEADERS = {
   "Content-Type": "application/json",
 };

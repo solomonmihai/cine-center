@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from "svelte";
   import "../app.css";
 
   function goToTop() {
@@ -8,7 +9,19 @@
     });
   }
 
-  let visible = true;
+  let visible = false;
+
+  onMount(() => {
+    const onScroll = () => {
+      visible = window.scrollY > 0;
+    };
+
+    document.addEventListener("scroll", onScroll);
+
+    return () => {
+      document.removeEventListener("scroll", onScroll);
+    };
+  });
 </script>
 
 <div>

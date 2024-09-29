@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"main/data"
-	"net/http"
+	"main/router"
+
+	"fmt"
 	"os"
 
 	"github.com/labstack/echo/v4"
@@ -32,27 +33,7 @@ func main() {
 
 	e.Static("/", "public")
 
-	e.GET("/data", func(c echo.Context) error {
-		return c.JSON(http.StatusOK, data.CinemaData)
-	})
-
-	e.GET("/all-films", func(c echo.Context) error {
-		return c.JSON(http.StatusOK, data.AllFilmsByDate)
-	})
-
-	e.GET("/cinema-names", func(c echo.Context) error {
-		return c.JSON(http.StatusOK, data.CinemaNames)
-	})
-
-	e.GET("/cinema/:name", func(c echo.Context) error {
-		name := c.Param("name")
-		cinema, err := data.GetCinemaData(name)
-		if err != nil {
-			return c.JSON(http.StatusBadRequest, err)
-		}
-
-		return c.JSON(http.StatusOK, cinema)
-	})
+	router.SetupRouter(e)
 
 	if err := e.Start(":" + string(port)); err != nil {
 		fmt.Printf("failed to start server %s", err)

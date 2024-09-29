@@ -32,10 +32,10 @@ func CreateScheduler() error {
 
 func UpdateData() error {
 	fmt.Println("fetching data")
-	if err := runScraper(); err != nil {
-		fmt.Printf("failed to run scraper %s", err)
-		return err
-	}
+	// if err := runScraper(); err != nil {
+		// fmt.Printf("failed to run scraper %s", err)
+		// return err
+	// }
 
 	fmt.Println("loading data")
 	if err := loadData(); err != nil {
